@@ -17,7 +17,8 @@ public class Dollars {
         dollarsString=JOptionPane.showInputDialog(null, "Enter Dollar Amount (Whole Dollars Only):", "Dollars Information", JOptionPane.INFORMATION_MESSAGE);
         dollars= Integer.parseInt(dollarsString);
         
-        //Calculate denominations
+        /*Calculate denominations by finding the number of a bill,
+        then subtracting that from the total to find remaining of other denominations*/
         twenties=dollars/20;
         dollars-=(twenties*20);
         tens=dollars/10;
