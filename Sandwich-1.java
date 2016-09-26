@@ -1,10 +1,10 @@
-package chapter3Assignments;
-
+//Created by Zach Iroz 9/1/16
+//Object Sandwich and it's properties
 import java.util.Scanner;
 
 public class Sandwich 
 {
-	
+	//declare class variables
 	String mainIngredient;
 	String breadType;
 	double price;
