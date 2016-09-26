@@ -1,5 +1,5 @@
-package chapter3Assignments;
-
+//Created by Zach Iroz 9/1/16
+//TestSandwich is an instantiation of object (class) sandwich
 import java.util.Scanner;
 
 public class TestSandwich 
